@@ -1,12 +1,25 @@
 {
   "name": "fetch-body-parser",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ridiculously simplistic node/fetch/json/podyParser example =========",
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwo/node-fetch-body-parser-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jwo/node-fetch-body-parser-example/issues"
+  },
+  "homepage": "https://github.com/jwo/node-fetch-body-parser-example#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mustache-express": "^1.2.5"
+  }
 }
